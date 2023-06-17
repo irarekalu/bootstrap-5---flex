@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+   
+  }
+  /*  */
+.b1{
+    background-color: #a94444;
+    width: 100px;
+
+  }
+.b2{
+    background-color: #36408f;
+    width: 100px;
+   
+  }
+.b3{
+    background-color: #44a964;
+    width: 100px;
+
+}
+
+/* вирівнювання по горизонталі */
+.a1 {
+    background-color: rgba(149, 176, 42, 0.9);
+    height: 100px;
+   
+  }
+
+.a2 {
+    background-color: rgba(117, 21, 21, 0.8);
+    height: 150px;
+   
+}
+
+.a3 {
+    background-color: rgba(183, 221, 58, 0.6);
+    height: 75px;
+  
+}
+.a4 {
+    background-color: rgba(7, 99, 130, 0.6);
+    height: 150px;
+    
+}
+.a5 {
+    background-color: rgba(104, 35, 80, 0.6);
+    height: 100px;
+   
+}
+.a6 {
+    background-color: rgba(89, 98, 191, 0.6);
+    height: 75px;
+   
+}
+/* вирівнювання по вертикалі */
+.s {
+    height: 200px;
+}
+.s1 {
+    height: 100px;
+    background-color: #ab5959;
+}
+.s2 {
+    height: 150px;
+    background-color: #5f6d6e;
+}
+.s3 {
+    height: 100px;
+    background-color: #59ab70;
+}
+

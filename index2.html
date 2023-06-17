@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="style.css">
+    
+<style>
+
+</style>
+</head>
+<body>
+
+  <!-- <div class="d-flex" > /*вирівнюються всі блоки горизонтально*/
+    <div class="b1">1</div>
+    <div class="b2">2</div>
+    <div class="b3">3</div>
+</div> -->
+
+  <!-- <div class="d-md-flex" > /*вирівнюються всі блоки горизонтально починаючи з точки md*/
+    <div class="b1">1</div>
+    <div class="b2">2</div>
+    <div class="b3">3</div>
+</div> -->
+
+<div class="d-flex align-items-center" >  <!-- вирівнюємо по вертикалі-->
+  <div class="col-4 align-self-start b1">1</div> <!-- 1ий елелмент притиснутий до верху-->
+  <div class="col-4 b2">2</div> <!-- 2ий елелмент по центру-->
+  <div class="col-4 align-self-end b3">3</div> <!-- 3ій елелмент притиснутий до низу-->
+</div>
+<br><br><br><br>
+<br>
+<!-- по горизонталі старт -->
+по горизонталі старт
+<div class="d-flex  justify-content-start" >
+  <div class="b1">1</div>
+  <div class="b2">2</div>
+  <div class="b3">3</div>
+</div>
+<br>
+<!-- по горизонталі center -->
+по горизонталі center
+<div class="d-flex  justify-content-center" >
+  <div class="b1">1</div>
+  <div class="b2">2</div>
+  <div class="b3">3</div>
+</div>
+<br>
+<!-- по горизонталі between -->
+по горизонталі between
+<div class="d-flex  justify-content-between" >
+  <div class="b1">1</div>
+  <div class="b2">2</div>
+  <div class="b3">3</div>
+</div>
+<br>
+<!-- по горизонталі end -->
+по горизонталі end
+<div class="d-flex  justify-content-end" >
+  <div class="b1">1</div>
+  <div class="b2">2</div>
+  <div class="b3">3</div>
+</div>
+<br>
+
+
+<!-- приклад 1 -->
+приклад 1 вирівнювання по горизонталі + перенос на другий рядок (wrap)
+<div class="d-flex flex-wrap align-items-end align-items-center">
+
+  <div class="col-4 a1">a1</div> <!--один блок займає 4 колонки бутстрап , тобто третину ширини браузера-->
+  <div class="col-4 a2">a2</div>
+  <div class="col-4 a3">a3</div>
+  <div class="col-4 a4">a4</div> <!--відбудеться перехід на другий рядок , тобто спрацьовує wrap , бо вже не вистачає ширини-->
+  <div class="col-4 a5">a5</div>
+  <div class="col-4 a6">a6</div>
+</div>
+
+<br><br>
+<!-- приклад 2 -->
+приклад 2 вирівнювання по вертикалі
+ <div class="d-flex align-items-center s" style="height: 200px; ">
+  <div class="col-4 align-self-start s1" >1</div>
+  <div class="col-4 s2">2</div>
+  <div class="col-4 align-self-end s3" >3</div>
+</div>  
+    
+</body>
+</html>
